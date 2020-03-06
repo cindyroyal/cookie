@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 
         let defaultValue = ["MyKey" : ""]
-        let defaultValue2 = ["MyKey2" : ""]
+        let defaultValue2 = ["MyKey2" : 0]
         defaults.register(defaults: defaultValue)
         defaults.register(defaults: defaultValue2)
         return true
